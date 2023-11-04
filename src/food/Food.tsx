@@ -9,6 +9,6 @@ interface IFoodProps extends React.PropsWithChildren {
 export const FoodComponent = (props: IFoodProps) => {
     return (<div className="food" onClick={() => props.AddEventHandler(new FoodModel(props.Name, props.Price))}>
         <p>{props.Name}</p>
-        <p>Price: {props.Price}</p>
+        <p>Price: {props.Price} KGS</p>
     </div>);
 };

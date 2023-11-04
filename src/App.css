@@ -1,3 +1,25 @@
-.root{
+.container{
     display: flex;
+}
+
+.foods {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 650px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+.food{
+    border: 1px solid black;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }

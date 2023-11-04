@@ -1,4 +1,4 @@
-export class FoodModeld {
+export class FoodModel {
     Name: string
     Price: number
 
